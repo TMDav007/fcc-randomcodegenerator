@@ -1,0 +1,116 @@
+body{
+	-webkit-transition : background-color 5s ease-in-out;
+	 -moz-transition: background-color 5s ease-in-out;
+	}
+
+.quote-wrapper{
+	
+	width : 550px;
+	background: #fff;
+	padding: 20px;
+	padding-bottom:0px;
+	font-family:'Lucida Console',Monaco, Monospace;
+	font-size: 23px;
+	color: inherit;
+	margin: 150px auto 0px auto ;
+
+	overflow: hidden;
+	
+	
+	/*set transition*/
+	-webkit-transition : height 20s linear;
+	-moz-transition: height 20s linear;
+	
+}
+
+.quote{
+	
+	animation-duration: 7s;
+	animation-name: fadeIn
+}
+	/*@keyframes slidein {    ****SLideIn animation
+		from {
+			margin-left: 60%;
+			width: 100%;
+		}
+		
+		to {
+			margin-left: 0%;
+			width: 100%;
+		}*/
+		
+		@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		
+		100% {
+			opacity: 100%;
+			
+		}
+	}
+	
+#colum{
+	text-align: left;
+	margin-right: 400px;
+	margin-bottom: 10px;
+}
+
+.fa {
+	
+	
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#getMessage{
+	margin-left:50px;
+	-webkit-transition : background-color 5s ease-in-out;
+	 -moz-transition: background-color 5s ease-in-out;
+}
+
+#getMessage:hover{
+	opacity: 0.7;
+}
+
+#getTwit{
+	-webkit-transition : background-color 5s ease-in-out;
+	 -moz-transition: background-color 5s ease-in-out;
+	margin-right:200px;
+}
+#getTwit a{	
+	color: #fff;
+}
+
+.blo{
+	
+	font-size: 14px;
+}
+
+.butn{
+	width: 550px;
+	margin: -70px auto 0px auto ;
+}
+.btn {
+	cursor: pointer;
+	border: 0px;
+}
+
+.btn:hover {
+	background: #1e2518;
+}
+
+p{
+	width: 550px;
+	margin: 40px auto ;
+	color: #fff;
+}
+
